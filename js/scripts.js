@@ -15,9 +15,6 @@ $(document).ready(function() {
     inputArray.forEach(function(element) {
       $(outputArray[arrayIndex]).text(element);
       arrayIndex += 1;
-
-
-
     });
 /*    
     $(".person1").text(person1Input);
